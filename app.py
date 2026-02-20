@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import scipy.stats as stats
 import streamlit as st
@@ -45,7 +46,6 @@ def toss_coin(n):
 
         progress_bar.progress(i / n)
 
-        # Slow animation only for small experiments
         if n <= 200:
             time.sleep(0.02)
 
@@ -86,3 +86,8 @@ if start_button:
 # -----------------------------
 st.subheader("Experiment Results")
 st.dataframe(st.session_state["df_experiment_results"])
+
+# -----------------------------
+# Dynamic Port Info (for deploy)
+# -----------------------------
+st.write("App running on dynamic port (ready for deploy).")

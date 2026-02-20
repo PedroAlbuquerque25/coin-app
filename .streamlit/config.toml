@@ -1,7 +1,8 @@
 [server]
 headless = true
-port = 10000
+port = 8501  # padrão Streamlit; remove se a plataforma usar PORT dinâmico
 address = "0.0.0.0"
+enableCORS = false
 
 [theme]
 primaryColor = "#F39C12"
@@ -9,5 +10,6 @@ backgroundColor = "#0E1117"
 secondaryBackgroundColor = "#262730"
 textColor = "#FAFAFA"
 font = "sans serif"
+
 [browser]
 gatherUsageStats = false
