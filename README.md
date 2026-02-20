@@ -3,7 +3,7 @@
 
 This project is an interactive dashboard designed to transform raw cryptocurrency data into real-time visual insights. Built with **Python** and **Streamlit**, the application provides an intuitive interface to monitor market volatility and identify trends across digital assets.
 
-🔗 **Live Demo:** https://coin-app-pvn2dzhkqyrxnlj6grzyq5.streamlit.app
+🔗 **Live Demo:** https://coin-app-yhlyxki9slxqvz8tyeofwl.streamlit.app
 
 ---
 
@@ -40,6 +40,7 @@ git clone https://github.com/PedroAlbuquerque25/coin-app.git
 cd coin-app
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 ---
 
