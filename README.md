@@ -1,40 +1,43 @@
-# 🪙 Coin App: Crypto Market Intelligence Dashboard
-### Real-Time Data Analytics & Visualization Tool
+# 🪙 Coin Toss Experiment: Law of Large Numbers Visualizer
 
-This project is an interactive dashboard designed to transform raw cryptocurrency data into real-time visual insights. Built with **Python** and **Streamlit**, the application provides an intuitive interface to monitor market volatility and identify trends across digital assets.
+### Interactive Statistical Simulation built with Python & Streamlit
+
+This project is an interactive dashboard that simulates coin tosses and visualizes 
+how the running average converges toward **0.5** as the number of trials increases — 
+demonstrating the **Law of Large Numbers** in real time.
 
 🔗 **Live Demo:** https://coin-app-yhlyxki9slxqvz8tyeofwl.streamlit.app
 
 ---
 
-### 🛠️ Tech Stack & Features:
+### 🛠️ Tech Stack:
 
-* **Language & Processing:** Python (Pandas for data manipulation, Requests for API consumption)
-* **Frontend Interface:** Streamlit for building fast and responsive dashboards
-* **Visualization:** Interactive charts that simplify the interpretation of price trends and time series behavior
-* **Infrastructure:** Dependency management via `requirements.txt` and deployment through Streamlit Cloud
+- **Python** — Core simulation logic using `SciPy` (Bernoulli distribution) and `Pandas`
+- **Streamlit** — Interactive UI with real-time chart updates and session management
+- **Streamlit Cloud** — Live deployment and hosting
 
 ---
 
-### 📊 Business Value:
-This project demonstrates my ability to build **Business Intelligence (BI)** tools that:
+### 📊 What it does:
 
-1. **Consume Data** from external sources using REST APIs  
-2. **Clean and Structure** data efficiently for real-time reporting  
-3. **Deliver Decision-Ready Interfaces** for non-technical users, translating complexity into visual clarity  
+1. **Simulates** coin tosses using a Bernoulli distribution (`p=0.5`)
+2. **Tracks** the running mean across all tosses in real time
+3. **Persists** experiment history across multiple runs using Streamlit Session State
+4. **Visualizes** convergence behavior through a live-updating line chart
 
 ---
 
 ### 📁 Repository Structure:
 
-* `app.py` — main application logic and UI layout  
-* `requirements.txt` — dependencies required for environment setup  
-* `.streamlit/` — custom configuration for theme and performance  
+├── .streamlit/        # Custom theme and platform settings
+├── .devcontainer/     # Standardized dev environment for Codespaces
+├── app.py             # Core application logic and Streamlit UI
+├── requirements.txt   # Dependencies (Pandas, SciPy, Streamlit)
+└── README.md          # Project documentation
 
 ---
 
 ### 🚀 How to Run Locally:
-
 ```bash
 git clone https://github.com/PedroAlbuquerque25/coin-app.git
 cd coin-app
