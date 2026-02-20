@@ -29,11 +29,13 @@ demonstrating the **Law of Large Numbers** in real time.
 
 ### 📁 Repository Structure:
 
-├── .streamlit/        # Custom theme and platform settings
-├── .devcontainer/     # Standardized dev environment for Codespaces
-├── app.py             # Core application logic and Streamlit UI
-├── requirements.txt   # Dependencies (Pandas, SciPy, Streamlit)
-└── README.md          # Project documentation
+### 📁 Repository Structure:
+
+├── .streamlit/          # Custom theme and platform performance settings
+├── .devcontainer/      # Standardized development environment for Codespaces
+├── app.py               # Core application logic and Streamlit UI
+├── requirements.txt     # Production dependencies (Pandas, SciPy, etc.)
+└── README.md            # Project documentation and business value overview 
 
 ---
 
